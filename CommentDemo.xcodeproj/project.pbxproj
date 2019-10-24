@@ -15,6 +15,7 @@
 		B64856B62330D3FE00788AEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B64856B52330D3FE00788AEF /* main.m */; };
 		B64856BE2330D44500788AEF /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = B64856BD2330D44500788AEF /* BulletView.m */; };
 		B64856C12330D4A600788AEF /* BulletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B64856C02330D4A600788AEF /* BulletManager.m */; };
+		B64856C32331C54A00788AEF /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B64856C22331C54A00788AEF /* 5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B64856BD2330D44500788AEF /* BulletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
 		B64856BF2330D4A600788AEF /* BulletManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulletManager.h; sourceTree = "<group>"; };
 		B64856C02330D4A600788AEF /* BulletManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletManager.m; sourceTree = "<group>"; };
+		B64856C22331C54A00788AEF /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		B648569A2330D3FC00788AEF = {
 			isa = PBXGroup;
 			children = (
+				B64856C22331C54A00788AEF /* 5.jpg */,
 				B64856A52330D3FC00788AEF /* CommentDemo */,
 				B64856A42330D3FC00788AEF /* Products */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B64856B32330D3FE00788AEF /* LaunchScreen.storyboard in Resources */,
+				B64856C32331C54A00788AEF /* 5.jpg in Resources */,
 				B64856B02330D3FE00788AEF /* Assets.xcassets in Resources */,
 				B64856AE2330D3FC00788AEF /* Main.storyboard in Resources */,
 			);

@@ -34,6 +34,13 @@
     btn.frame = CGRectMake(100, 100, 100, 40);
     [btn addTarget:self action:@selector(clickBtn) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn1 setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [btn1 setTitle:@"stop" forState:UIControlStateNormal];
+    btn1.frame = CGRectMake(250, 100, 100, 40);
+    [btn1 addTarget:self action:@selector(clickStopBtn) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn1];
 }
 
 //点击start按钮执行的事件
@@ -43,6 +50,11 @@
      */
     
     [self.manager start];
+}
+
+//点击stop按钮执行的事件
+- (void)clickStopBtn {
+    [self.manager stop];
 }
 
 - (void)addBulletView:(BulletView *)view {
